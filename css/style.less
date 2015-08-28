@@ -807,7 +807,31 @@ body
 		background-size: cover;
 		min-height: 330px;
 	}
+	.works-photo
+	{
+		position: relative;
+	}
+	.icon-dribbble
+	{
+		position: absolute;
+    	font-size: 100px;
+    	left: 50%;
+    	top: 96px;
+    	margin-left: -67px;
+    	color: #fff;
+    	display: none;
+	}
+	.works-photo:hover
+	{
+		cursor: pointer;
+		opacity: .6;
+	}
+	.works-photo:hover .icon-dribbble
+	{
+		display: inline-block;
+	}
 }
+
 .contact
 {
 	background-color: #252e30;
